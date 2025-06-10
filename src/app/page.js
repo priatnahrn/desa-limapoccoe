@@ -30,13 +30,13 @@ export default function Home() {
           Masuk sebagai Masyarakat
         </Link>
         <Link
-          href="/login/admin"
+          href="/admin/login"
           className="bg-blue-700 hover:bg-blue-800 text-white font-semibold py-3 px-6 rounded-lg shadow-lg text-center"
         >
           Masuk sebagai Admin
         </Link>
         <Link
-          href="/login/kepala-desa"
+          href="/kepala-desa/login"
           className="bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg text-center"
         >
           Masuk sebagai Kepala Desa
