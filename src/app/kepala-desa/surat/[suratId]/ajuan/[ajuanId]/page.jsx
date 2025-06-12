@@ -40,7 +40,7 @@ export default function AjuanDetailPage() {
   if (!token) return;
 
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/ajuan-surat/kepala-desa/signed/${ajuanId}`, {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/kepala-desa/ajuan-surat/${suratId}/${ajuanId}/signed`, {
       method: "POST",
       headers: {
         Authorization: `Bearer ${token}`,
