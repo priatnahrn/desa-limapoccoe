@@ -25,7 +25,7 @@ export default function AuthPage() {
   setMessage('')
 
   try {
-    const res = await fetch('/api/v1/register', {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/register`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
