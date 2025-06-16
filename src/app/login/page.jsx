@@ -23,7 +23,7 @@ export default function LoginPage() {
     setErrors({})
 
     try {
-      const res = await fetch(`${baseURL}/login/masyarakat`, {
+      const res = await fetch(`/api/v1/login/masyarakat`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

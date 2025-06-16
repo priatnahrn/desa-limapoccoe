@@ -4,7 +4,7 @@ const nextConfig = {
         return [
             {
                 source: '/api/:path*',
-                destination: 'https://wicked-sites-lose.loca.lt/api/:path*' // Proxy to external API
+                destination: 'https://quiet-pans-appear.loca.lt/api/:path*' // Proxy to external API
             },
         ];
     }
