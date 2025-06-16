@@ -7,6 +7,7 @@ export async function POST(req) {
     const response = await fetch('https://quiet-pans-appear.loca.lt/api/v1/login/masyarakat', {
       method: 'POST',
       headers: {
+        'Accept': 'application/json',
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(body),
